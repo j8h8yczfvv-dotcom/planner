@@ -2,12 +2,173 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
     <title>Planner</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <h1>Наш планер</h1>
+<div class="app">
+
+    <!-- Верхняя панель -->
+    <div class="top">
+        <button class="top-button">☰</button>
+        <button class="top-button">▣</button>
+    </div>
+
+
+    <!-- Дата -->
+    <div class="date-block">
+
+        <div>
+            <div class="date">
+                1 сентября, вторник
+            </div>
+
+            <div class="year">
+                2026
+            </div>
+        </div>
+
+        <button class="day-icon">
+            💻
+        </button>
+
+    </div>
+
+
+    <!-- Загруженность -->
+    <div class="load-title">
+        ЗАГРУЖЕННОСТЬ
+    </div>
+
+    <div class="load">
+
+        <button></button>
+        <button></button>
+        <button class="active"></button>
+        <button></button>
+        <button></button>
+
+    </div>
+
+
+    <!-- Планы -->
+    <div class="section-title">
+        ПЛАНЫ НА ДЕНЬ
+    </div>
+
+
+    <div class="tasks">
+
+        <div class="task">
+            <button class="task-check"></button>
+            <input
+                type="text"
+                placeholder="Учёба">
+        </div>
+
+        <div class="task">
+            <button class="task-check"></button>
+            <input
+                type="text"
+                placeholder="Встретиться с Анной">
+        </div>
+
+        <div class="task">
+            <button class="task-check"></button>
+            <input
+                type="text"
+                placeholder="Тренировка">
+        </div>
+
+        <div class="task">
+            <button class="task-check"></button>
+            <input
+                type="text"
+                placeholder="Прочитать книгу">
+        </div>
+
+        <div class="task">
+            <button class="task-check"></button>
+            <input
+                type="text"
+                placeholder="Купить продукты">
+        </div>
+
+        <div class="task">
+            <button class="task-check"></button>
+            <input
+                type="text"
+                placeholder="Позвонить маме">
+        </div>
+
+        <div class="task">
+            <button class="task-check"></button>
+            <input
+                type="text"
+                placeholder="Разобрать заметки">
+        </div>
+
+        <div class="task">
+            <button class="task-check"></button>
+            <input
+                type="text"
+                placeholder="Подготовка к проекту">
+        </div>
+
+    </div>
+
+
+    <!-- Свободные строки -->
+    <div class="lines">
+
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+
+    </div>
+
+
+    <!-- Заметки -->
+    <button class="notes-button">
+        ▣ &nbsp; ЗАМЕТКИ
+    </button>
+
+</div>
+
+
+<!-- Нижняя навигация -->
+
+<nav class="bottom-menu">
+
+    <button class="active">
+        <span>▣</span>
+        День
+    </button>
+
+    <button>
+        <span>▦</span>
+        Календарь
+    </button>
+
+    <button>
+        <span>▤</span>
+        Заметки
+    </button>
+
+    <button>
+        <span>⚙</span>
+        Настройки
+    </button>
+
+</nav>
 
 </body>
 </html>
